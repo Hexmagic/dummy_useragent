@@ -4,6 +4,13 @@ random usergent for china python developer
 # dummy_useragent vs faker_useragent
 faker_useragent  will download useragent from [useragentstring.com](useragentstring.com) when it initialize,dummy_useragent has built-in useragents,and dummy_useragent can refresh useragent from [useragentstring.com](useragentstring.com)
 
+
+# Install
+
+```shell
+pip install dummy_useragent
+```
+
 # Usage
 
 just like faker_useragent
