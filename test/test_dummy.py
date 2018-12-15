@@ -3,18 +3,19 @@ from dummy_useragent import UserAgent
 
 
 class Test_Dummy(unittest.TestCase):
-    def test_random(self):
-        r = UserAgent().random()
-        print(r)
+    # def test_chrome(self):
+    #     u = UserAgent()
+    #     u.refresh()
 
-    def test_chrome(self):
+    def test_us(self):
         u = UserAgent()
-        u.Chrome.choice()
+        c = u.random()
+        print(c)
 
 
 def main():
     unittest.main()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
